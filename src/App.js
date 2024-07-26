@@ -1,12 +1,13 @@
-import './App.css';
 import React from 'react';
+import Navbar from './Navbar.js';
+import Home from './Home.js';
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <div className="content">
-        <h1>Knitty</h1>
-        <h2>All The Knitting You Can Stand</h2>
+        <Home />
       </div>
     </div>
   );
