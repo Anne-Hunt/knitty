@@ -4,7 +4,8 @@
   "description": "node express js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vite",
+    "build": "eslint src && tsc && vite build"
   },
   "author": "",
   "license": "ISC",
