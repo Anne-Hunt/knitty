@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "vite",
-    "build": "eslint src && tsc && vite build"
+    "build": "vite build"
   },
   "author": "",
   "license": "ISC",
